@@ -66,6 +66,14 @@ flowchart TD
 
 ---
 
+## 🛠️ Open-Source Ecosystem Contributions & Case Studies
+
+| Ecosystem | Focus | Issue / PR | Artifact & Analysis | Status |
+| :--- | :--- | :--- | :--- | :---: |
+| **Qiskit SDK** | **Arithmetic Circuit Library** | [Issue #16168](https://github.com/Qiskit/qiskit/issues/16168) / [PR #16394](https://github.com/Qiskit/qiskit/pull/16394) | [`MultiplierGate` Truncated Result Decomposition Case Study](../qiskit/CASE_STUDY_ISSUE_16168.md) | ✅ Merged Upstream |
+
+---
+
 ## ⚡ Quickstart
 
 ```bash
@@ -85,3 +93,4 @@ pip install -e ".[dev]" && pytest tests/ -v && python example.py
 ## 📄 License
 
 All repositories are open-source under the [MIT License](LICENSE).
+
