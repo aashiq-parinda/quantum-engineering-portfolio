@@ -68,9 +68,13 @@ flowchart TD
 
 ## 🛠️ Open-Source Ecosystem Contributions & Case Studies
 
-| Ecosystem | Focus | Issue / PR | Artifact & Analysis | Status |
+| Ecosystem | Domain & Focus | Target / Issue | Technical Artifact & Analysis | Status |
 | :--- | :--- | :--- | :--- | :---: |
-| **Qiskit SDK** | **Arithmetic Circuit Library** | [Issue #16168](https://github.com/Qiskit/qiskit/issues/16168) / [PR #16394](https://github.com/Qiskit/qiskit/pull/16394) | [`MultiplierGate` Truncated Result Decomposition Case Study](../qiskit/CASE_STUDY_ISSUE_16168.md) | ✅ Merged Upstream |
+| **Qiskit SDK** *(IBM Quantum)* | **Arithmetic Circuit Library** | [Issue #16168](https://github.com/Qiskit/qiskit/issues/16168) / [PR #16394](https://github.com/Qiskit/qiskit/pull/16394) | [`MultiplierGate` Truncated Result Decomposition Case Study](../qiskit/CASE_STUDY_ISSUE_16168.md) | ✅ Merged Upstream |
+| **Mitiq** *(Unitary Fund)* | **Quantum Error Mitigation** | ZNE & Richardson Inference | [Richardson Extrapolation vs Analytical Lagrange Weights](../mitiq/CASE_STUDY_MITIQ_ZNE.md) | ✅ Verified Benchmark |
+| **PennyLane** *(Xanadu)* | **Differentiable Quantum Ops** | Parameter-Shift Gradients | [Analytical 2-Term & 4-Term Shift Rule Evaluation](../pennylane/CASE_STUDY_PENNYLANE_GRADIENTS.md) | ✅ Verified Benchmark |
+| **Stim** *(Google Quantum AI)* | **Fault-Tolerant QEC** | Surface Codes & Stabilizers | [CSS Syndrome Extraction & Tableau Error Recovery](../Stim/CASE_STUDY_STIM_QEC.md) | ✅ Verified Benchmark |
+
 
 ---
 
