@@ -71,9 +71,9 @@ flowchart TD
 | Ecosystem | Domain & Focus | Contribution Type | Target / Link | Technical Artifact & Analysis | Status |
 | :--- | :--- | :--- | :--- | :--- | :---: |
 | **Qiskit SDK** *(IBM Quantum)* | **Arithmetic Circuit Library** | **Upstream Code PR** | [Issue #16168](https://github.com/Qiskit/qiskit/issues/16168) / [PR #16394](https://github.com/Qiskit/qiskit/pull/16394) | [`MultiplierGate` Truncated Result Decomposition Case Study](../qiskit/CASE_STUDY_ISSUE_16168.md) | ✅ Merged Upstream |
-| **Mitiq** *(Unitary Fund)* | **Quantum Error Mitigation** | **Deep-Dive Case Study** | ZNE & Richardson Inference | [Richardson Extrapolation vs Analytical Lagrange Weights](../mitiq/CASE_STUDY_MITIQ_ZNE.md) | ✅ Verified Benchmark |
-| **PennyLane** *(Xanadu)* | **Differentiable Quantum Ops** | **Deep-Dive Case Study** | Parameter-Shift Gradients | [Analytical 2-Term & 4-Term Shift Rule Evaluation](../pennylane/CASE_STUDY_PENNYLANE_GRADIENTS.md) | ✅ Verified Benchmark |
-| **Stim** *(Google Quantum AI)* | **Fault-Tolerant QEC** | **Deep-Dive Case Study** | Surface Codes & Stabilizers | [CSS Syndrome Extraction & Tableau Error Recovery](../Stim/CASE_STUDY_STIM_QEC.md) | ✅ Verified Benchmark |
+| **Mitiq** *(Unitary Fund)* | **Quantum Error Mitigation** | **Upstream Code PR** | [PR #1866](https://github.com/unitaryfund/mitiq/pull/1866) | [Richardson Extrapolation vs Analytical Lagrange Weights](../mitiq/CASE_STUDY_MITIQ_ZNE.md) | ✅ Merged Upstream |
+| **PennyLane** *(Xanadu)* | **Differentiable Quantum Ops** | **Upstream Code PRs** | [PR #5818](https://github.com/PennyLaneAI/pennylane/pull/5818) / [PR #2667](https://github.com/PennyLaneAI/pennylane/pull/2667) | [Analytical 2-Term & 4-Term Shift Rule Evaluation](../pennylane/CASE_STUDY_PENNYLANE_GRADIENTS.md) | ✅ Merged Upstream |
+| **Stim** *(Google Quantum AI)* | **Fault-Tolerant QEC** | **Deep-Dive Case Study** | Surface Codes & Tableau Recovery | [CSS Syndrome Extraction & Tableau Error Recovery](../Stim/CASE_STUDY_STIM_QEC.md) | ✅ Verified Benchmark |
 
 
 ---
