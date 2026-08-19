@@ -12,7 +12,7 @@ Master portfolio consolidating **10 research-grade repositories** spanning quant
 
 | Stage | Domain | Repository | Status | Key Contributions |
 | :---: | :--- | :--- | :---: | :--- |
-| **Research** | **GenAI × Quantum (Original)** | [`quantum-genai-warmstart`](https://github.com/aashiq-parinda/quantum-genai-warmstart) | ✅ `14/14 tests` | **Original research**: 12K-param pure-NumPy transformer predicting VQE warm-start parameters. **Zenodo Published (DOI: [10.5281/zenodo.21998273](https://doi.org/10.5281/zenodo.21998273))**. |
+| **Research** | **GenAI × Quantum (Original)** | [`quantum-genai-warmstart`](https://github.com/aashiq-parinda/quantum-genai-warmstart) | ✅ `26/26 tests` | **Original research**: 15K-param pure-NumPy transformer predicting joint ansatz topology and VQE warm-start parameters. **Zenodo Published (DOI: [10.5281/zenodo.22013110](https://doi.org/10.5281/zenodo.22013110))**. |
 | **Research** | **ZNE Paper Reproduction** | [`quantum-zne-reproduction`](https://github.com/aashiq-parinda/quantum-zne-reproduction) | ✅ `21/21 tests` | **Temme et al. 2017 Reproduction**: Gate folding, Richardson extrapolation, Figs 1–3, discrepancy analysis. **Zenodo Published (DOI: [10.5281/zenodo.21979332](https://doi.org/10.5281/zenodo.21979332))**. |
 | **FDE** | **Hybrid Orchestration** | [`quantum-hybrid-orchestration`](https://github.com/aashiq-parinda/quantum-hybrid-orchestration) | ✅ `9/9 tests` | **Solutions Architect / FDE Evidence**: Pre-processing → Quantum dispatch → Post-processing loop, smart backend router (Sim vs QPU), job queue, VQE & QAOA adaptability, Executive Translation Blog (99.78% cost reduction via hybrid loops). |
 | **01** | **Quantum Foundations** | [`quantum-computing-foundations`](https://github.com/aashiq-parinda/quantum-computing-foundations) | ✅ `28/28 tests` | Statevector $\mathbb{C}^{2^N}$, Grover's search $O(\sqrt{N})$, QFT, QPE, Deutsch-Jozsa, Teleportation, Superdense Coding. |
@@ -68,12 +68,12 @@ flowchart TD
 
 ## 🛠️ Open-Source Ecosystem Contributions & Case Studies
 
-| Ecosystem | Domain & Focus | Target / Issue | Technical Artifact & Analysis | Status |
-| :--- | :--- | :--- | :--- | :---: |
-| **Qiskit SDK** *(IBM Quantum)* | **Arithmetic Circuit Library** | [Issue #16168](https://github.com/Qiskit/qiskit/issues/16168) / [PR #16394](https://github.com/Qiskit/qiskit/pull/16394) | [`MultiplierGate` Truncated Result Decomposition Case Study](../qiskit/CASE_STUDY_ISSUE_16168.md) | ✅ Merged Upstream |
-| **Mitiq** *(Unitary Fund)* | **Quantum Error Mitigation** | ZNE & Richardson Inference | [Richardson Extrapolation vs Analytical Lagrange Weights](../mitiq/CASE_STUDY_MITIQ_ZNE.md) | ✅ Verified Benchmark |
-| **PennyLane** *(Xanadu)* | **Differentiable Quantum Ops** | Parameter-Shift Gradients | [Analytical 2-Term & 4-Term Shift Rule Evaluation](../pennylane/CASE_STUDY_PENNYLANE_GRADIENTS.md) | ✅ Verified Benchmark |
-| **Stim** *(Google Quantum AI)* | **Fault-Tolerant QEC** | Surface Codes & Stabilizers | [CSS Syndrome Extraction & Tableau Error Recovery](../Stim/CASE_STUDY_STIM_QEC.md) | ✅ Verified Benchmark |
+| Ecosystem | Domain & Focus | Contribution Type | Target / Link | Technical Artifact & Analysis | Status |
+| :--- | :--- | :--- | :--- | :--- | :---: |
+| **Qiskit SDK** *(IBM Quantum)* | **Arithmetic Circuit Library** | **Upstream Code PR** | [Issue #16168](https://github.com/Qiskit/qiskit/issues/16168) / [PR #16394](https://github.com/Qiskit/qiskit/pull/16394) | [`MultiplierGate` Truncated Result Decomposition Case Study](../qiskit/CASE_STUDY_ISSUE_16168.md) | ✅ Merged Upstream |
+| **Mitiq** *(Unitary Fund)* | **Quantum Error Mitigation** | **Deep-Dive Case Study** | ZNE & Richardson Inference | [Richardson Extrapolation vs Analytical Lagrange Weights](../mitiq/CASE_STUDY_MITIQ_ZNE.md) | ✅ Verified Benchmark |
+| **PennyLane** *(Xanadu)* | **Differentiable Quantum Ops** | **Deep-Dive Case Study** | Parameter-Shift Gradients | [Analytical 2-Term & 4-Term Shift Rule Evaluation](../pennylane/CASE_STUDY_PENNYLANE_GRADIENTS.md) | ✅ Verified Benchmark |
+| **Stim** *(Google Quantum AI)* | **Fault-Tolerant QEC** | **Deep-Dive Case Study** | Surface Codes & Stabilizers | [CSS Syndrome Extraction & Tableau Error Recovery](../Stim/CASE_STUDY_STIM_QEC.md) | ✅ Verified Benchmark |
 
 
 ---
