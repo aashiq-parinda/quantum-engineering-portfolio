@@ -76,6 +76,15 @@ flowchart TD
 | **Stim** *(Google Quantum AI)* | **Fault-Tolerant QEC** | **Deep-Dive Case Study** | Surface Codes & Tableau Recovery | [CSS Syndrome Extraction & Tableau Error Recovery](./case_studies/CASE_STUDY_STIM_QEC.md) | ✅ Verified Benchmark |
 
 
+## 🏆 IBM Quantum Credentials (Credly)
+
+* **Quantum Chemistry with Variational Quantum Eigensolver (VQE)** | [Verify Badge](https://www.credly.com/badges/ffa133a1-98c3-4442-b64e-108c65cd4830/linked_in_profile)
+* **Basics of Quantum Information** | [Verify Badge](https://www.credly.com/badges/3c83776c-6cdc-4e26-a792-c6b8a13abc54)
+* **Quantum Machine Learning** | [Verify Badge](https://www.credly.com/badges/93684391-002b-46a2-8c16-1b935151eb02)
+* **Practical Introduction to Quantum-Safe Cryptography** | [Verify Badge](https://www.credly.com/badges/245ca28b-378d-473e-92fd-2c525be4b769)
+* **Quantum Business Foundations** | [Verify Badge](https://www.credly.com/badges/4ed95a55-f4fe-40fa-a113-2a1508b8fa6e)
+* **Full Credly Profile**: [Verify All Badges](https://www.credly.com/users/ashraf-khan.729bf623/badges/credly)
+
 ---
 
 ## ⚡ Quickstart
