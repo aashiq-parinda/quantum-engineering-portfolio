@@ -76,7 +76,7 @@ flowchart TD
 | **Stim** *(Google Quantum AI)* | **Fault-Tolerant QEC** | **Deep-Dive Case Study** | Surface Codes & Tableau Recovery | [CSS Syndrome Extraction & Tableau Error Recovery](./case_studies/CASE_STUDY_STIM_QEC.md) | ✅ Verified Benchmark |
 
 
-## <img src="./case_studies/ibm_logo_white.svg" height="24" align="absmiddle"/> IBM Quantum Credentials (Credly)
+## <img src="./case_studies/ibm_logo_white_square.svg" height="24" align="absmiddle"/> IBM Quantum Credentials (Credly)
 
 * **Quantum Chemistry with Variational Quantum Eigensolver (VQE)** | [Verify Badge](https://www.credly.com/badges/ffa133a1-98c3-4442-b64e-108c65cd4830/linked_in_profile)
 * **Basics of Quantum Information** | [Verify Badge](https://www.credly.com/badges/3c83776c-6cdc-4e26-a792-c6b8a13abc54)
